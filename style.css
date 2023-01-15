@@ -8,7 +8,7 @@
 }
 /* header work */
 .header{
-    background-color: rgb(219, 219, 219);
+    background-color: rgba(5, 116, 146, 0.129);
 }
 .header-content{
     max-width: 1300px;
@@ -163,10 +163,12 @@
 }
 .sopnsors-content .images{
     display: flex;
+    padding-top: 4rem;
     justify-content: space-between;
 }
 .sopnsors-content .images .img{
     width: 150px;
+    /* filter: grayscale(100%); */
 }
 .somefact-content .images .img img{
     width: 100%;
@@ -302,7 +304,52 @@
     word-spacing: 2px;
     padding: 1rem;
     line-height: 1.7rem;
-    width: 500px;
+}
+.testomonial{
+    max-width: 1300px;
+    margin: 5rem auto;
+    text-align: center;
+}
+.testomonial h1{
+    font-size: 40px;
+}
+.testomonial h1 span{
+    color: #0075be;
+    padding-left: 0.3rem;
+}
+.testomonial-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+    row-gap: 2.5rem;
+    padding: 4rem 0;
+}
+.testomonial-item{
+    width: 340px;
+    padding: 2rem;
+    background-color: rgba(5, 112, 201, 0.112);
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.testomonial-text{
+    transition: all .2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.testomonial-text:hover{
+    transform: scale(1.1);
+}
+.testomonial-text img{
+    width: 100px;
+}
+
+.testomonial-text h3{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(100, 100, 100);
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 
